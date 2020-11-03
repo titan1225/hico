@@ -1,8 +1,44 @@
 <!doctype html>
 <html>
   <head>
-    <title>개발동기</title>
+    <title>사업소개</title>
     <meta charst="utf-8">
+    <style>
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      h1{
+        font-size:300%;
+        border-bottom:1px solid black;
+        text-align:center;
+        margin:0;
+        padding:20px;
+      }
+      #grid ol{
+        border-right:1px solid black;
+        margin:0;
+        padding:30px;
+      }
+      body{
+        margin:0;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:150px 1fr;
+      }
+      #본문{
+        padding-left:20px;
+      }
+      .saw
+      {
+        color:gray;
+      }
+      #active{
+        color:red;
+        text-decoration:underline;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1K66EN8DY"></script>
 <script>
@@ -14,29 +50,27 @@
 </script>
   </head>
   <body>
-    <h1><a href="home.html">Hico<a/></h1>
+    <h1><a href="home.html">Hico</a></h1>
+    <div id="grid">
     <ol>
-      <li><a href="사업소개.html">사업소개</a></li>
-      <li><a href="개발동기.html">개발동기</a></li>
+      <li><a href="사업소개.html" class="saw">사업소개</a></li>
+      <li><a href="개발동기.html" class="saw" id="active">개발동기</a></li>
       <li><a href="사업화계획.html">사업화 계획</a></li>
     </ol>
+    <div id="본문">
     <h2>개발동기</h2>
-    <p>
-    옷에 관심을 가지면서 자연스레 구매하는 브랜드도 다양해졌습니다.<br>
-    잘 알려진 브랜드도 구매해보고 비교적 인지도가 없는 브랜드도 구매해봤습니다.<br>
-    인기있는 브랜드의 경우 리뷰가 많고 어느정도 품질이 보장되있지만,<br>
-    잘 알려지지 않은 브랜드에서 괜찮은 의류를 찾는 경우도 많았습니다.<br>
-    <img src="개발동기사진.jpg" width="30%">
+    <p>옷에 대한 관심이 많아진 후 여러가지 브랜드를 접했습니다. 누구나 알만한 브랜드부터 잘 알려지지 않은 브랜드까지<br>
+    이것저것 사보고 나서 느낀 점은, '인지도가 제품의 품질을 보장하지는 않는다'였습니다.<br>
+    숨겨진 브랜드 중에서도 상당히 괜찮은 제품들이 많았고, 이런 브랜드들이 알려지지 않고 사라져가는 게 안타까웠습니다.<br>
+    그래서 유명 브랜드들끼리만 콜라보를 하는 게 아니라, 비인기 브랜드들도 자유롭게 협업할 수 있는 환경을 만들 수는 없을까?라는 고민을 했습니다.<br>
+    플랫폼을 만들어 그 위에서 여러 비인기 브랜드들이 자유롭게 협업하고, 그 내용들이 사람들의 주목을 받게 하는 것이 Hico의 역할입니다.<br>
+    협업 과정과 내용들을 컨텐츠로 만들고, 다양한 이벤트까지 진행하면서 유입률을 높이고, 브랜드는 인지도를 높일 수 있습니다.<br>
+    고객들은 새로운 브랜드들을 알아가는 것 뿐만 아니라, 두 브랜드의 협업을 통한 새로운 이미지의 제품들도 구매할 수 있습니다.
     </p>
-    <p>
-    판매량이 높은 브랜드의 가장 큰 단점은 흔하다는 것입니다.<br>
-    흔히 클론이라고 칭하는 현상으로, 개인의 개성을 살리기 힘든 편입니다.<br>
-    지금은 점점 자신만의 것을 원하고, 커스터마이징이 소비의 큰 기준이 되는 시대라고 생각합니다.<br>
-    그래서 잘 알려지지 않은 브랜드가 서로 자유로이 협업할 수 있는 장을 만들어서,<br>
-    소비자에게는 새로운 이미지의 의류를, 브랜드에게는 판매량이 오르는 효과를 주고자 Hico를 만들었습니다.
-    </p>
-    <p>
+    <img src="개발동기사진.jpg" width="700px" height="400px;">
+    </div>
       <div id="disqus_thread"></div>
+    </div>
 <script>
 
 /**
@@ -56,6 +90,21 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <p>
+      <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f9fae4a520b4b7986a0606e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     </p>
   </body>
 </html>

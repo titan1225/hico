@@ -3,6 +3,37 @@
   <head>
     <title>Hico-숨겨진조합</title>
     <meta charst="utf-8">
+    <style>
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      h1{
+        font-size:300%;
+        text-align:center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+      body{
+        margin:0;
+      }
+      #grid ol{
+        border-right:1px solid gray;
+        width:100px;
+        margin:0;
+        padding:20px;
+        padding-left:40px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:150px 1fr;
+      }
+      .본문{
+        padding-left:100px;
+      }
+    </style>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1K66EN8DY"></script>
 <script>
@@ -14,15 +45,19 @@
 </script>
   </head>
   <body>
-    <h1><a href="home.html">Hico<a/></h1>
-    <ol>
-      <li><a href="사업소개.html">사업소개</a></li>
-      <li><a href="개발동기.html">개발동기</a></li>
-      <li><a href="사업화계획.html">사업화 계획</a></li>
-    </ol>
-    <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YXvCPa4UFzk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
+    <h1>Hico</h1>
+    <div id="grid">
+      <ol>
+        <li><a href="사업소개.html">사업소개</a></li>
+        <li><a href="개발동기.html">개발동기</a></li>
+        <li><a href="사업화계획.html">사업화 계획</a></li>
+      </ol>
+      <div class="본문">
+        <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YXvCPa4UFzk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
+    </div>
     <p>
       <div id="disqus_thread"></div>
 <script>

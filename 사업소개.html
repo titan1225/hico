@@ -3,6 +3,34 @@
   <head>
     <title>사업소개</title>
     <meta charst="utf-8">
+    <style>
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      h1{
+        font-size:300%;
+        border-bottom:1px solid black;
+        text-align:center;
+        margin:0;
+        padding:20px;
+      }
+      #grid ol{
+        border-right:1px solid black;
+        margin:0;
+        padding:30px;
+      }
+      body{
+        margin:0;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:150px 1fr;
+      }
+      #본문{
+        padding-left:20px;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1K66EN8DY"></script>
 <script>
@@ -14,20 +42,22 @@
 </script>
   </head>
   <body>
-    <h1><a href="home.html">Hico<a/></h1>
+    <h1><a href="home.html">Hico</a></h1>
+    <div id="grid">
     <ol>
-      <li><a href="사업소개.html">사업소개</a></li>
+      <li><a href="사업소개.html" style="color:red; text-decoration:underline;">사업소개</a></li>
       <li><a href="개발동기.html">개발동기</a></li>
       <li><a href="사업화계획.html">사업화 계획</a></li>
     </ol>
+    <div id="본문">
     <h2>Hico</h2>
     <p>
-    <a href="https://www.naver.com/" target="blank" title="naver">Hico</a>는 Hidden과 Collaboration의 합성어로 숨겨진 조합이라는 뜻입니다.
-    히코는 비교적 덜 알려진 <u>비인기, 비주류 브랜드들을 모아 협업을 진행하는 플랫폼</u>입니다.
+    Hico는 Hidden과 Collaboration의 합성어로 숨겨진 조합이라는 뜻입니다.
+    히코는 비교적 덜 알려진 비인기, 비주류 브랜드들을 모아 협업을 진행하는 플랫폼입니다.
     현재 의류업계에는 정말 실력있는 브랜드가 많습니다. 하지만 옷을 잘 만드는 것이 잘 팔리는 것으로 직결되지는 않습니다.
     그래서 히코는 그런 비주류 브랜드들이 서로 자유롭게 콜라보레이션을 진행하고, 그 콜라보레이션이
     사람들의 주목을 받게 하자는 취지에서 만든 사업입니다.</p>
-    <img src="사업소개사진.jpg" width="50%">
+    <img src="사업소개사진.jpg" width="700px" height="400px;">
     <p>Hico는 여러 브랜드들을 모아, 이미지별로 브랜드들을 분류합니다.
     입점 브랜드들은 원하는 이미지의 브랜드에게 요청해 회의를 통해 콜라보레이션을 진행합니다.
     Hico는 두 브랜드의 협업 정보와, 진행과정등을 내용으로 컨텐츠를 생산해 이목을 집중시킵니다.
@@ -35,7 +65,9 @@
     각자의 브랜드 이미지가 합쳐져 새로운 느낌이 소비자에게 전달됩니다.
     유명 브랜드끼리만 진행되던 콜라보를 여러 브랜드로 넓혀 다양성을 늘리는 것입니다.</p>
     <p>
+    </div>
       <div id="disqus_thread"></div>
+    </div>
 <script>
 
 /**
