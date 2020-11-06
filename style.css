@@ -26,7 +26,7 @@ ol{
   grid-template-columns:150px 1fr;
 }
 .본문{
-  padding-left:30px;
+  padding-left:80px;
 }
 @media(max-width:800px){
     #grid{
@@ -38,7 +38,5 @@ ol{
 h1{
     border-bottom:none;
 }
-#본문{
-padding-left:none;
-}
+
 }
