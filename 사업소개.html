@@ -16,20 +16,31 @@
   </head>
   <body>
     <h1><a href="home.html">Hico</a></h1>
+    <input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+     if(this.value === 'night'){
+       target.style.backgroundColor='black';
+       target.style.color='white';
+       this.value = 'day';
+     }else{
+       target.style.backgroundColor='white';
+       target.style.color='black';
+       this.value = 'night';
+     }
+    ">
     <div id="grid">
     <ol>
-      <li><a href="사업소개.html" style="color:red; text-decoration:underline;">사업소개</a></li>
+      <li><a href="사업소개.html">사업소개</a></li>
       <li><a href="개발동기.html">개발동기</a></li>
       <li><a href="사업화계획.html">사업화 계획</a></li>
     </ol>
-    <div id="본문">
+    <div class="본문">
     <h2>Hico</h2>
     <p>
-    Hico는 Hidden과 Collaboration의 합성어로 숨겨진 조합이라는 뜻입니다.
-    히코는 비교적 덜 알려진 비인기, 비주류 브랜드들을 모아 협업을 진행하는 플랫폼입니다.
-    현재 의류업계에는 정말 실력있는 브랜드가 많습니다. 하지만 옷을 잘 만드는 것이 잘 팔리는 것으로 직결되지는 않습니다.
-    그래서 히코는 그런 비주류 브랜드들이 서로 자유롭게 콜라보레이션을 진행하고, 그 콜라보레이션이
-    사람들의 주목을 받게 하자는 취지에서 만든 사업입니다.</p>
+      ·Hico는 Hidden(숨겨진) Collaboration(조합)이라는 뜻으로, 비주류의류 브랜드들의 협업(콜라보)을 돕는 온라인 플랫폼입니다.
+  ·비주류 의류 브랜드들을 플랫폼을 통해 한군데 모아 협업을 돕고, 그 내용을 컨텐츠화 시켜 이목을 끄는 기능.
+  · 브랜드는 홍보의 기회와 협업의 편리성, 소비자는 새로운 이미지의 제품을 접하는 기회와 플랫폼을 통한 쇼핑의 편의성.
+</p>
     <img src="사업소개사진.jpg" width="700px" height="400px;">
     <p>Hico는 여러 브랜드들을 모아, 이미지별로 브랜드들을 분류합니다.
     입점 브랜드들은 원하는 이미지의 브랜드에게 요청해 회의를 통해 콜라보레이션을 진행합니다.

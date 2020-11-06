@@ -16,21 +16,33 @@
   </head>
   <body>
     <h1><a href="home.html">Hico</a></h1>
+    <input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+     if(this.value === 'night'){
+       target.style.backgroundColor='black';
+       target.style.color='white';
+       this.value = 'day';
+     }else{
+       target.style.backgroundColor='white';
+       target.style.color='black';
+       this.value = 'night';
+     }
+    ">
     <div id="grid">
     <ol>
       <li><a href="사업소개.html" class="saw">사업소개</a></li>
       <li><a href="개발동기.html" class="saw">개발동기</a></li>
       <li><a href="사업화계획.html" class="saw" id="active">사업화 계획</a></li>
     </ol>
-    <div id="본문">
+    <div class="본문">
     <h2>사업화 계획</h2>
     <p>
       <h3>STEP 1</h3>
-      : 소수의 비인기 브랜드들을 조건 없이 입점시킵니다. 입점 한 브랜드들의 협업 횟수를 늘립니다.
+      : 소수의 비인기 브랜드들을 수수료 조건 없이 입점시킵니다.
       <h3>STEP 2</h3>
       : 협업 내용과 과정들을 브랜드 디자이너와 모델과 함께 컨텐츠화 시키고 이벤트도 진행합니다.
       <h3>STEP 3</h3>
-      : 제품 판매 수익의 일부를 수수료로 받아 Hico 운영자금으로 사용해 더 많은 브랜드를 입점시킵니다.
+      : 유입이 많아지면 제품 판매 수익의 일부를 수수료로 받아 Hico 운영자금으로 사용해 더 많은 브랜드를 입점시킵니다.
     </p>
     <p><img src="사업화계획사진.jpg" width="600px" height="300px"></p>
     </div>

@@ -16,6 +16,32 @@
   </head>
   <body>
     <h1>Hico</h1>
+    <input id="night_day" type="button" value="night" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'night'){
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = 'powderblue';
+          i = i + 1;
+        }
+      } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = 'blue';
+          i = i + 1;
+        }
+      }
+    ">
     <div id="grid">
       <ol>
         <li><a href="사업소개.html">사업소개</a></li>
@@ -24,7 +50,7 @@
       </ol>
       <div class="본문">
         <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YXvCPa4UFzk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw7xmFm57bs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
       </div>
     </div>
